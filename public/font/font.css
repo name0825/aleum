@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'SLEIGothicOTF';
+    src: url('/font/SLEIGothicOTF.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SDSamliphopangche';
+    src: url('/font/SDSamliphopangcheOutline.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}

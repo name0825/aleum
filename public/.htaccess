@@ -1,0 +1,13 @@
+php_flag register_globals on
+php_flag register_long_arrays on
+ServerSignature Off
+
+<files ~ "^.*\.([Hh][Tt][Aa])">
+    order allow,deny
+    deny from all
+</files>
+
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*(?!index.php).*)$ index.php?page=$1 [L,QSA]
