@@ -11,5 +11,5 @@
 
 ## HOW TO USE
 - INSTALL
-    - [download](https://github.com/name0825/aleum/archive/refs/heads/master.zip)
+    - [download](https://github.com/name0825/aleum/archive/refs/heads/main.zip)
     - git clone https://github.com/name0825/aleum.git
